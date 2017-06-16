@@ -1,0 +1,263 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>8</NumElts>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<U16>
+<Name>DAQ Type</Name>
+<Val>0</Val>
+</U16>
+<Cluster>
+<Name>Channel 1</Name>
+<NumElts>5</NumElts>
+<Boolean>
+<Name>Acquiring</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<U16>
+<Name>Terminal configuration</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Range</Name>
+<Val>0</Val>
+</U16>
+<I16>
+<Name>Coupling</Name>
+<Val>1</Val>
+</I16>
+</Cluster>
+<Cluster>
+<Name>Channel 2</Name>
+<NumElts>5</NumElts>
+<Boolean>
+<Name>Acquiring</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<U16>
+<Name>Terminal configuration</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Range</Name>
+<Val>0</Val>
+</U16>
+<I16>
+<Name>Coupling</Name>
+<Val>1</Val>
+</I16>
+</Cluster>
+<Cluster>
+<Name>Timing</Name>
+<NumElts>6</NumElts>
+<U32>
+<Name>Sample Time [Time Units]</Name>
+<Val>1</Val>
+</U32>
+<DBL>
+<Name>Actual Sample Time [s]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Samples per Iteration</Name>
+<Val>0</Val>
+</U32>
+<U16>
+<Name>Sample Clock Source</Name>
+<Val>0</Val>
+</U16>
+<U32>
+<Name>Time Units</Name>
+<Val>4</Val>
+</U32>
+<Timestamp>
+<Name>t0</Name>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+</Timestamp>
+</Cluster>
+<Cluster>
+<Name>PS Parameters</Name>
+<NumElts>8</NumElts>
+<I16>
+<Name>PS handle</Name>
+<Val>0</Val>
+</I16>
+<I16>
+<Name>PS Max_adc</Name>
+<Val>0</Val>
+</I16>
+<Array>
+<Name>PS Enabled Array</Name>
+<Dimsize>0</Dimsize>
+<I16>
+<Name>enabled</Name>
+<Val></Val>
+</I16>
+</Array>
+<Cluster>
+<Name>PS Device Info</Name>
+<NumElts>13</NumElts>
+<String>
+<Name>Driver Version</Name>
+<Val></Val>
+</String>
+<String>
+<Name>USB Version</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Hardware</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Variant</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Batch and Serial</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Cal Date</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Kernel Version</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Digital HW Version</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Analogue HW Version</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Firmware 1</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Firmware 2</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>MSO</Name>
+<Val>0</Val>
+</Boolean>
+<I16>
+<Name>Number of Channels</Name>
+<Val>0</Val>
+</I16>
+</Cluster>
+<Refnum>
+<Name>Channel 1 Buffer</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Channel 2 Buffer</Name>
+<RefKind>Data Value Reference</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<I32>
+<Name>Resolution</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>USB Power</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Trigger</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>Direction</Name>
+<Val>0</Val>
+</U16>
+<DBL>
+<Name>Threshold [V]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Enabled</Name>
+<Val>1</Val>
+</Boolean>
+<U16>
+<Name>Trigger Source</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Keithley Parameters</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>Previous End / Current Start</Name>
+<Val>0</Val>
+</I32>
+<U16>
+<Name>Quantity</Name>
+<Val>1</Val>
+</U16>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\carmine.paolino\Documents\LabVIEW Data\Logged Data.tdms</Val>
+</Path>
+<Refnum>
+<Name>TDMS File Reference</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>Enabled</Name>
+<Val>0</Val>
+</Boolean>
+<U64>
+<Name>Disk cache size</Name>
+<Val>10000</Val>
+</U64>
+</Cluster>
+</Cluster>
+</LVData>

@@ -1,0 +1,1 @@
+Copy these files into the resource subfolder of the LabView installation folder
