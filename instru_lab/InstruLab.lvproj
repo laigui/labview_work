@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -177,6 +177,9 @@
 				<Item Name="subMatchDT.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/MaskLimitBlock.llb/subMatchDT.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Fetch (Measurements).vi" Type="VI" URL="/&lt;instrlib&gt;/KeithleyDMM7510/Raptor/Keithley 2450/Public/Data/Low Level/Fetch (Measurements).vi"/>
@@ -187,16 +190,10 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="ps2000a.dll" Type="Document" URL="../support/DAQ Drivers/PicoScope 2000a Series/Picoscope dlls/ps2000a.dll"/>
 			<Item Name="ps2000aWrap.dll" Type="Document" URL="../support/DAQ Drivers/PicoScope 2000a Series/Picoscope dlls/ps2000aWrap.dll"/>
-			<Item Name="PS3000a.dll" Type="Document" URL="PS3000a.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ps5000a.dll" Type="Document" URL="ps5000a.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ps5000aWrap.dll" Type="Document" URL="ps5000aWrap.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="PicoScopeAdcToVolts.vi" Type="VI" URL="../support/DAQ Drivers/PicoScope 2000a Series/PicoScopeAdcToVolts.vi"/>
+			<Item Name="ps5000a.dll" Type="Document" URL="../support/DAQ Drivers/PicoScope 5000a Series/PicoScope dlls/ps5000a.dll"/>
+			<Item Name="ps3000a.dll" Type="Document" URL="../support/DAQ Drivers/PicoScope 5000a Series/PicoScope dlls/ps3000a.dll"/>
+			<Item Name="ps5000aWrap.dll" Type="Document" URL="../support/DAQ Drivers/PicoScope 5000a Series/PicoScope dlls/ps5000aWrap.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Instrumentation Idea Fast Prototype Application" Type="EXE">

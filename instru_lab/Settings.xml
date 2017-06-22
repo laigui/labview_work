@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>16.0</Version>
+<Version>17.0</Version>
 <Cluster>
 <Name>Settings in</Name>
 <NumElts>2</NumElts>
@@ -252,7 +252,7 @@
 </Refnum>
 <Boolean>
 <Name>Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <U64>
 <Name>Disk cache size</Name>
