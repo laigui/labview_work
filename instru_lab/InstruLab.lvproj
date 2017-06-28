@@ -189,11 +189,12 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="PicoScopeAdcToVolts.vi" Type="VI" URL="../support/DAQ Drivers/PicoScope 2000a Series/PicoScopeAdcToVolts.vi"/>
-			<Item Name="ps2000a.dll" Type="Document" URL="/C/RPF_dlls/PS2000a/ps2000a.dll"/>
-			<Item Name="ps2000aWrap.dll" Type="Document" URL="/C/RPF_dlls/PS2000a/ps2000aWrap.dll"/>
 			<Item Name="ps5000a.dll" Type="Document" URL="/C/RPF_dlls/PS5000a/ps5000a.dll"/>
-			<Item Name="ps5000aWrap.dll" Type="Document" URL="/C/RPF_dlls/PS5000a/ps5000aWrap.dll"/>
 			<Item Name="ps3000a.dll" Type="Document" URL="/C/RPF_dlls/PS5000a/ps3000a.dll"/>
+			<Item Name="ps5000a.dll" Type="Document" URL="../support/DAQ Drivers/PicoScope 5000a Series/PicoScope dlls/ps5000a.dll"/>
+			<Item Name="ps5000aWrap.dll" Type="Document" URL="../support/DAQ Drivers/PicoScope 5000a Series/PicoScope dlls/ps5000aWrap.dll"/>
+			<Item Name="ps2000a.dll" Type="Document" URL="../build/application/data/ps2000a.dll"/>
+			<Item Name="ps2000aWrap.dll" Type="Document" URL="../build/application/data/ps2000aWrap.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Instrumentation Idea Fast Prototype Application" Type="EXE">
