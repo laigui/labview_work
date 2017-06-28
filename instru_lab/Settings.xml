@@ -14,7 +14,7 @@
 </Refnum>
 <U16>
 <Name>DAQ Type</Name>
-<Val>0</Val>
+<Val>2</Val>
 </U16>
 <Cluster>
 <Name>Channel 1</Name>
@@ -25,7 +25,7 @@
 </Boolean>
 <Boolean>
 <Name>Enabled</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 <U16>
 <Name>Terminal configuration</Name>
@@ -33,7 +33,7 @@
 </U16>
 <U16>
 <Name>Range</Name>
-<Val>0</Val>
+<Val>8</Val>
 </U16>
 <I16>
 <Name>Coupling</Name>
@@ -66,10 +66,10 @@
 </Cluster>
 <Cluster>
 <Name>Timing</Name>
-<NumElts>6</NumElts>
+<NumElts>7</NumElts>
 <U32>
 <Name>Sample Time [Time Units]</Name>
-<Val>1</Val>
+<Val>250</Val>
 </U32>
 <DBL>
 <Name>Actual Sample Time [s]</Name>
@@ -85,7 +85,7 @@
 </U16>
 <U32>
 <Name>Time Units</Name>
-<Val>4</Val>
+<Val>3</Val>
 </U32>
 <Timestamp>
 <Name>t0</Name>
@@ -110,6 +110,10 @@
 </I32>
 </Cluster>
 </Timestamp>
+<U32>
+<Name>Baud rate</Name>
+<Val>1</Val>
+</U32>
 </Cluster>
 <Cluster>
 <Name>PS Parameters</Name>
@@ -243,7 +247,7 @@
 <NumElts>4</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\carmine.paolino\Documents\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\Users\carmine.paolino\Desktop\Logged Data.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -256,7 +260,7 @@
 </Boolean>
 <U64>
 <Name>Disk cache size</Name>
-<Val>10000</Val>
+<Val>40000</Val>
 </U64>
 </Cluster>
 </Cluster>
