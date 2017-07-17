@@ -14,7 +14,7 @@
 </Refnum>
 <U16>
 <Name>DAQ Type</Name>
-<Val>2</Val>
+<Val>4</Val>
 </U16>
 <Cluster>
 <Name>Channel 1</Name>
@@ -33,7 +33,7 @@
 </U16>
 <U16>
 <Name>Range</Name>
-<Val>8</Val>
+<Val>5</Val>
 </U16>
 <I16>
 <Name>Coupling</Name>
@@ -69,7 +69,7 @@
 <NumElts>7</NumElts>
 <U32>
 <Name>Sample Time [Time Units]</Name>
-<Val>250</Val>
+<Val>100</Val>
 </U32>
 <DBL>
 <Name>Actual Sample Time [s]</Name>
@@ -202,11 +202,11 @@
 </Refnum>
 <I32>
 <Name>Resolution</Name>
-<Val>0</Val>
+<Val>4</Val>
 </I32>
 <Boolean>
 <Name>USB Power</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <Cluster>
@@ -247,7 +247,7 @@
 <NumElts>4</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\carmine.paolino\Desktop\Logged Data.tdms</Val>
+<Val>\\Mac\Home\Downloads\log.tdms</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -260,7 +260,7 @@
 </Boolean>
 <U64>
 <Name>Disk cache size</Name>
-<Val>40000</Val>
+<Val>100000</Val>
 </U64>
 </Cluster>
 </Cluster>

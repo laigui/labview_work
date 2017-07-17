@@ -16,9 +16,15 @@ SUPPORTED DAQ HARDWARES
 	Oscilloscope:
 		- Tektronics DPO2000/3000/4000 (USB)
 		- PicoScope 2000a series (USB)
+		- PicoScope 5000a series (USB)
+		- Keithley DMM7510 (USB)
+		- Arduino (Generic Serial Device) (USB)
 
 SUPPORTED ALGORITHMS
 
+
+NOTES
+	Copy the ..\support\DAQ Drivers\RPF_dlls folder in C:\
 
 SVN
 

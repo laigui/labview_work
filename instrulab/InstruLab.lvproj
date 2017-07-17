@@ -189,12 +189,11 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="PicoScopeAdcToVolts.vi" Type="VI" URL="../support/DAQ Drivers/PicoScope 2000a Series/PicoScopeAdcToVolts.vi"/>
+			<Item Name="ps2000a.dll" Type="Document" URL="/C/RPF_dlls/PS2000a/ps2000a.dll"/>
+			<Item Name="ps2000aWrap.dll" Type="Document" URL="/C/RPF_dlls/PS2000a/ps2000aWrap.dll"/>
 			<Item Name="ps5000a.dll" Type="Document" URL="/C/RPF_dlls/PS5000a/ps5000a.dll"/>
+			<Item Name="ps5000aWrap.dll" Type="Document" URL="/C/RPF_dlls/PS5000a/ps5000aWrap.dll"/>
 			<Item Name="ps3000a.dll" Type="Document" URL="/C/RPF_dlls/PS5000a/ps3000a.dll"/>
-			<Item Name="ps5000a.dll" Type="Document" URL="../support/DAQ Drivers/PicoScope 5000a Series/PicoScope dlls/ps5000a.dll"/>
-			<Item Name="ps5000aWrap.dll" Type="Document" URL="../support/DAQ Drivers/PicoScope 5000a Series/PicoScope dlls/ps5000aWrap.dll"/>
-			<Item Name="ps2000a.dll" Type="Document" URL="../build/application/data/ps2000a.dll"/>
-			<Item Name="ps2000aWrap.dll" Type="Document" URL="../build/application/data/ps2000aWrap.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Instrumentation Idea Fast Prototype Application" Type="EXE">
@@ -210,6 +209,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B1B2A711-D696-4C82-A956-2E5555B6D5C4}</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../build/application/InstruLab_Instrumentation Idea Fast Prototype Application_log.txt</Property>
+				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">InstruLab.exe</Property>
@@ -221,7 +222,7 @@
 				<Property Name="Destination[1].path" Type="Path">../build/application/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5F185FD7-F475-4C3B-90BB-EA3D1B32669F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{19EFC7E1-0D06-499B-BF81-2521D836DF48}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>

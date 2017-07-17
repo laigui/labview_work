@@ -1,0 +1,282 @@
+2017/6/30 上午9:49:12
+[General]
+Project: Z:\Workspace\labview_work\instrulab\InstruLab.lvproj
+Target: My Computer
+Build Specification: Instrumentation Idea Fast Prototype Application
+OS: Windows NT 10.0
+
+[Open Top Level VIs]
+Z:\Workspace\labview_work\instrulab\Main.vi	2017/6/28 上午10:50:16
+
+
+[Source Files]
+Z:\Workspace\labview_work\instrulab\Settings\Settings.lvlib	2017/6/28 上午10:50:16	1.0.0.0
+Z:\Workspace\labview_work\instrulab\Acquisition\Acquisition.lvlib	2017/6/28 上午10:50:16	1.0.0.0
+Z:\Workspace\labview_work\instrulab\Logging\Logging.lvlib	2017/6/28 上午10:50:27	1.0.0.0
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\NI_MAPro.lvlib	2017/3/15 上午11:13:26	14.0.0.0
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\NI_MABase.lvlib	2017/3/15 上午9:41:08	14.0.0.0
+Z:\Workspace\labview_work\instrulab\support\User Event - Stop\User Event - Stop.lvlib	2017/6/28 上午10:50:24	1.0.0.0
+Z:\Workspace\labview_work\instrulab\support\Message Queue\Message Queue.lvlib	2017/6/28 上午10:50:24	1.0.0.0
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\lvfile.llb\NI_FileType.lvlib	2017/3/16 上午1:16:06	1.0.0.0
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\LVLibp\NI_PackedLibraryUtility.lvlib	2017/3/15 下午12:15:20	1.0.0.0
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Tektronix DPO MSO 2000 4000 Series.lvlib	2017/6/28 上午10:50:24	5.5.0.0
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Keithley DMM7510.lvlib	2017/6/28 上午10:50:22	1.0.0.0
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\NI_AALBase.lvlib	2017/3/15 上午9:41:10	14.0.0.0
+C:\RPF_dlls\PS2000a\ps2000a.dll	2017/6/27 下午5:49:45
+C:\RPF_dlls\PS5000a\ps5000a.dll	2017/6/27 下午5:49:46
+C:\RPF_dlls\PS2000a\ps2000aWrap.dll	2017/6/27 下午5:49:45
+C:\RPF_dlls\PS5000a\ps5000aWrap.dll	2017/6/27 下午5:49:46
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\resource\lvanlys.dll	2017/3/15 上午8:04:00
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\whitespace.ctl	2017/3/15 下午10:41:06	15
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\GetHelpDir.vi	2017/3/15 下午10:41:03	4
+Z:\Workspace\labview_work\instrulab\support\User Event - Stop\Destroy User Event - Stop.vi	2017/6/28 上午10:50:24	12
+Z:\Workspace\labview_work\instrulab\support\Message Queue\Message Cluster.ctl	2017/6/28 上午10:50:24	8
+Z:\Workspace\labview_work\instrulab\support\Message Queue\Enqueue Message (Single).vi	2017/6/28 上午10:50:24	15
+Z:\Workspace\labview_work\instrulab\support\Message Queue\Enqueue Message (Array).vi	2017/6/28 上午10:50:24	16
+Z:\Workspace\labview_work\instrulab\support\Check Loop Error.vi	2017/6/28 上午10:50:24	23
+Z:\Workspace\labview_work\instrulab\Acquisition\Error Handler - Acquisition Message Loop.vi	2017/6/28 上午10:50:16	43
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi	2017/3/15 下午10:48:47	99
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\BuildHelpPath.vi	2017/3/15 下午10:41:04	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\miscctls.llb\LVBoundsTypeDef.ctl	2017/3/15 下午10:41:04	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Get String Text Bounds.vi	2017/3/15 下午10:41:07	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\picture\picture.llb\Get Text Rect.vi	2017/3/15 下午11:09:20	38
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Convert property node font to graphics font.vi	2017/3/15 下午10:41:04	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Longest Line Length in Pixels.vi	2017/3/15 下午10:41:07	29
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\miscctls.llb\LVRectTypeDef.ctl	2017/3/15 下午10:41:04	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Three Button Dialog CORE.vi	2017/3/15 下午10:41:08	588
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Three Button Dialog.vi	2017/3/15 下午10:59:24	24
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\DialogTypeEnum.ctl	2017/3/15 下午10:41:07	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Not Found Dialog.vi	2017/3/15 下午10:41:07	12
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Set Bold Text.vi	2017/3/15 下午10:41:03	20
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Clear Errors.vi	2017/3/15 下午10:59:26	24
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\event_ctls.llb\eventvkey.ctl	2017/3/15 下午10:41:07	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\TagReturnType.ctl	2017/3/15 下午10:41:04	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\ErrWarn.ctl	2017/3/15 下午10:41:04	19
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Details Display Dialog.vi	2017/3/15 下午10:41:07	310
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Search and Replace Pattern.vi	2017/3/15 下午10:59:24	37
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Find Tag.vi	2017/3/15 下午10:41:04	15
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Format Message String.vi	2017/3/15 下午10:41:04	197
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Trim Whitespace.vi	2017/3/15 下午10:41:08	33
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Error Code Database.vi	2017/3/15 下午10:41:08	36
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\GetRTHostConnectedProp.vi	2017/3/15 下午10:41:04	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Set String Value.vi	2017/3/15 下午10:41:04	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Check Special Tags.vi	2017/3/15 下午10:41:07	22
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\General Error Handler Core CORE.vi	2017/3/15 下午10:41:07	354
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\DialogType.ctl	2017/3/15 下午10:41:07	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\General Error Handler.vi	2017/3/15 下午10:59:19	201
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 5000a Series\PicoScope5000a.llb\PicoErrorHandler.vi	2017/5/16 下午2:10:37	18
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 5000a Series\PicoScope5000a.llb\PicoStatus.vi	2017/5/16 下午2:10:38	38
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 5000a Series\PicoScope5000a.llb\PicoScope5000aClose.vi	2017/6/29 上午11:04:10	31
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Utility\Error Query.vi	2017/6/28 上午10:50:23	89
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Close.vi	2017/6/28 上午10:50:22	35
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 2000a Series\PicoScope2000a_MSOtemp.llb\PicoScope2000aClose.vi	2017/6/27 下午5:07:17	40
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Private\Classify Error.vi	2017/6/28 上午10:50:23	15
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Public\Utility\Error Query.vi	2017/6/28 上午10:50:24	110
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Public\Close.vi	2017/6/28 上午10:50:23	54
+Z:\Workspace\labview_work\instrulab\Settings\Quantity.ctl	2017/6/28 上午10:50:16	3
+Z:\Workspace\labview_work\instrulab\Settings\Trigger Source.ctl	2017/6/28 上午10:50:16	3
+Z:\Workspace\labview_work\instrulab\Settings\Trigger Direction.ctl	2017/6/28 上午10:50:16	3
+Z:\Workspace\labview_work\instrulab\Settings\Resolution.ctl	2017/6/28 上午10:50:16	3
+Z:\Workspace\labview_work\instrulab\Settings\Time Units.ctl	2017/6/28 上午10:50:16	4
+Z:\Workspace\labview_work\instrulab\Settings\Sampling Clock Source.ctl	2017/6/28 上午10:50:16	3
+Z:\Workspace\labview_work\instrulab\Settings\Coupling.ctl	2017/6/28 上午10:50:16	6
+Z:\Workspace\labview_work\instrulab\Settings\Range.ctl	2017/6/28 上午10:50:16	4
+Z:\Workspace\labview_work\instrulab\Settings\Terminal Configuration.ctl	2017/6/28 上午10:50:16	2
+Z:\Workspace\labview_work\instrulab\Acquisition\Signal Type.ctl	2017/6/28 上午10:50:16	25
+Z:\Workspace\labview_work\instrulab\Acquisition\Hardware Configuration.ctl	2017/6/28 上午10:50:16	65
+Z:\Workspace\labview_work\instrulab\Acquisition\Stop Acquisition.vi	2017/6/29 下午3:21:36	43
+Z:\Workspace\labview_work\instrulab\Acquisition\Generate Arduino Data.vi	2017/6/28 上午10:50:16	92
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 5000a Series\Pico5000 - AdcToVolts.vi	2017/6/28 上午10:50:19	21
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 5000a Series\PicoScope5000a.llb\PicoScope5000aGetStreamingValues.vi	2017/6/29 上午11:19:58	137
+Z:\Workspace\labview_work\instrulab\Acquisition\Generate PicoScope 5000a Series Data.vi	2017/6/28 上午10:50:16	79
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Keithley DMM7510 Buffer Fetch Slice.vi	2017/6/28 上午10:50:22	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\dlg_ctls.llb\Space Constant.vi	2017/3/15 下午10:49:08	19
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Keithley DMM7510 Buffer Actual End.vi	2017/6/28 上午10:50:22	4
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\Mean (DBL).vi	2017/3/15 上午10:01:48	42
+Z:\Workspace\labview_work\instrulab\Acquisition\Generate Keithley DMM7510 Data.vi	2017/6/28 上午10:50:16	91
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 2000a Series\PicoScopeAdcToVolts.vi	2017/6/28 上午10:50:18	18
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 2000a Series\PicoScope2000a_MSOtemp.llb\PicoScope2000aGetStreamingValues.vi	2017/6/27 下午5:07:51	132
+Z:\Workspace\labview_work\instrulab\Acquisition\Generate Picoscope 2000a Series Data.vi	2017/6/28 上午10:50:16	96
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Private\Extended User Data.ctl	2017/6/28 上午10:50:23	56
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Private\Extended User Data.vi	2017/6/28 上午10:50:23	92
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Private\Tektronix Model Check.vi	2017/6/28 上午10:50:23	77
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Public\Data\Data_Low Level\Fetch Waveform (Waveform Data Type).vi	2017/6/28 上午10:50:24	300
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Public\Data\Data_Low Level\Wait for Operation Complete.vi	2017/6/28 上午10:50:24	89
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Public\Data\Data_Low Level\Initiate.vi	2017/6/28 上午10:50:24	71
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Public\Data\Read (Single Waveform).vi	2017/6/28 上午10:50:24	164
+Z:\Workspace\labview_work\instrulab\Acquisition\Generate Tektronix DPO MSO 2000 4000 Series Data.vi	2017/6/28 上午10:50:16	61
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express input\SimulateSignalConfig.llb\Nearest Freq in Int Cycles.vi	2017/3/15 下午10:41:04	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express input\SimulateSignalConfig.llb\Nearest Frequency for Block.vi	2017/3/15 下午10:41:07	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express input\SimulateSignalBlock.llb\subInternalTiming.vi	2017/3/15 下午10:41:07	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\maUtilsandCtls.llb\ma_patchErrorCode or Caller as Source.vi	2017/3/15 下午10:41:06	22
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\masignal.llb\ma_Trap Fgen Parameter Errors.vi	2017/3/15 下午10:41:07	30
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\maUtilsandCtls.llb\ma_Updatet0 timestamp.vi	2017/3/15 下午10:41:07	21
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Square Wave.vi	2017/3/15 上午9:41:04	60
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\maUtilsandCtls.llb\ma_basicErrorCode2ErrorCluster.vi	2017/3/15 下午10:41:07	24
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\masignal.llb\Square Waveform.vi	2017/3/15 下午10:41:04	110
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Triangle Wave.vi	2017/3/15 上午9:41:08	55
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\masignal.llb\Triangle Waveform.vi	2017/3/15 下午10:41:07	97
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Sawtooth Wave.vi	2017/3/15 上午9:41:06	48
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\masignal.llb\Sawtooth Waveform.vi	2017/3/15 下午10:41:06	104
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Sine Wave.vi	2017/3/15 上午9:41:08	59
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\masignal.llb\Sine Waveform.vi	2017/3/15 下午10:41:04	132
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express input\SimulateSignalBlock.llb\sub2ShouldUseDefSigName.vi	2017/3/15 下午10:52:48	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express input\SimulateSignalBlock.llb\subShouldUseDefSigName.vi	2017/3/15 下午10:41:04	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express input\SimulateSignalBlock.llb\subGetSignalName.vi	2017/3/15 下午10:41:08	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Uniform White Noise.vi	2017/3/15 上午9:41:10	88
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\manoise.llb\Uniform White Noise Waveform.vi	2017/3/15 下午10:41:06	101
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Gaussian White Noise.vi	2017/3/15 上午9:41:04	98
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\manoise.llb\Gaussian White Noise Waveform.vi	2017/3/15 下午10:41:08	97
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Periodic Random Noise.vi	2017/3/15 上午9:41:04	51
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\manoise.llb\Periodic Random Noise Waveform.vi	2017/3/15 下午10:41:03	88
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Gamma Noise.vi	2017/3/15 上午9:41:08	102
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\manoise.llb\Gamma Noise Waveform.vi	2017/3/15 下午10:41:04	106
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Poisson Noise.vi	2017/3/15 上午9:41:10	107
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\manoise.llb\Poisson Noise Waveform.vi	2017/3/15 下午10:41:04	100
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Binomial Noise.vi	2017/3/15 上午9:41:04	137
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\manoise.llb\Binomial Noise Waveform.vi	2017/3/15 下午10:41:08	106
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Bernoulli Noise.vi	2017/3/15 上午9:41:10	102
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\manoise.llb\Bernoulli Noise Waveform.vi	2017/3/15 下午10:41:03	119
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\1siggen.llb\Binary MLS.vi	2017/3/15 上午9:41:08	85
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\manoise.llb\MLS Sequence Waveform.vi	2017/3/15 下午10:41:04	120
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\Inverse f Settings Check.vi	2017/3/15 上午9:41:04	65
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\maUtilsandCtls.llb\ma_Check Sampling Info.vi	2017/3/15 下午10:41:04	9
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\manoise.llb\ma_Inverse f Settings Check.vi	2017/3/15 下午10:41:08	68
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\maUtilsandCtls.llb\ma_Update Timestamp.vi	2017/3/15 下午10:41:06	21
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\Gain into IIR Cluster.vi	2017/3/15 上午9:41:08	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\Inverse f Correct MagdB for Exponent and Gain.vi	2017/3/15 上午9:41:08	33
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\ND(z) at w.vi	2017/3/15 上午9:41:04	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\H(w) from IIR Cluster.vi	2017/3/15 上午9:41:08	29
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\Swept H(f) from IIR cluster.vi	2017/3/15 上午9:41:04	35
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\Noise Bandwidth for Cascaded 1st Order Filter.vi	2017/3/15 上午9:41:08	46
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\Inverse f Designer.vi	2017/3/15 上午9:41:06	50
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\Inverse f Filter Coefficients.vi	2017/3/15 上午10:07:30	151
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\IIR Cascade Filter (DBL).vi	2017/3/15 上午10:07:18	97
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Analysis\baseanly.llb\Inverse f Filter (DBL).vi	2017/3/15 上午10:07:30	183
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\manoise.llb\Inverse f Noise Waveform.vi	2017/3/15 下午11:18:39	308
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Waveform\TSOps.llb\DU64_U32SubtractWithBorrow.vi	2017/3/15 下午10:41:04	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Waveform\TSOps.llb\I128 Timestamp.ctl	2017/3/15 下午10:41:08	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Waveform\TSOps.llb\Timestamp Subtract.vi	2017/3/15 下午10:41:07	9
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Waveform\TSOps.llb\DU64_U32AddWithOverflow.vi	2017/3/15 下午10:41:07	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Waveform\TSOps.llb\Timestamp Add.vi	2017/3/15 下午10:41:07	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express shared\transition.llb\ex_WaveformAttribs.ctl	2017/3/15 上午9:41:08	12
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express shared\transition.llb\ex_SetAllExpressAttribs.vi	2017/3/15 上午9:41:04	1
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express shared\transition.llb\ex_WaveformAttribsPlus.ctl	2017/3/15 上午9:41:08	17
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express shared\transition.llb\ex_SetExpAttribsAndT0.vi	2017/3/15 上午9:41:08	1
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express shared\transition.llb\Waveform Array To Dynamic.vi	2017/3/15 上午9:41:08	1
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express input\SimulateSignalBlock.llb\ex_GenAddAttribs.vi	2017/3/15 下午10:41:07	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express shared\ex_CorrectErrorChain.vi	2017/3/15 上午9:41:08	13
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express input\SimulateSignalBlock.llb\subSigGeneratorBlock.vi	2017/3/15 下午10:41:07	10
+Z:\Workspace\labview_work\instrulab\Acquisition\Generate Simulated Data.vi	2017/6/28 上午10:50:16	59
+Z:\Workspace\labview_work\instrulab\support\Active channels.vi	2017/6/28 上午10:50:24	4
+Z:\Workspace\labview_work\instrulab\Acquisition\Acquire.vi	2017/6/28 上午10:50:16	90
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 5000a Series\PicoScope5000a.llb\PicoScope5000aStartStreaming.vi	2017/6/29 上午10:50:48	180
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 5000a Series\PicoScope5000a.llb\PicoScope5000aWrapSettings.vi	2017/6/27 下午5:15:49	19
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 5000a Series\PicoScope5000a.llb\PicoScope5000aSettings.vi	2017/6/29 上午10:50:31	121
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 2000a Series\Pico2000 - AdcToVolts.vi	2017/6/28 上午10:50:18	8
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Action-Status\Send Software Trigger.vi	2017/6/28 上午10:50:22	43
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Configure\Measurement\Configure DC Voltage.vi	2017/6/28 上午10:50:22	30
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Configure\Measurement\Configure AC Voltage.vi	2017/6/28 上午10:50:22	29
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Configure\Measurement\Configure DC Current.vi	2017/6/28 上午10:50:22	17
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Configure\Measurement\Configure Autozero State.vi	2017/6/28 上午10:50:22	99
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Configure\Measurement\Select Measurement Function.vi	2017/6/28 上午10:50:22	82
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Configure\Measurement\Configure AC Current.vi	2017/6/28 上午10:50:22	29
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Action-Status\Trigger\Timer\Enable Timer Trigger State.vi	2017/6/28 上午10:50:22	123
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Action-Status\Trigger\Timer\Configure Timer Trigger.vi	2017/6/28 上午10:50:22	55
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Data\Reading Buffer\Set Buffer Filling Mode.vi	2017/6/28 上午10:50:23	142
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Data\Reading Buffer\Create User Buffer.vi	2017/6/28 上午10:50:23	119
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Configure Keithley DMM7510.vi	2017/6/28 上午10:50:22	34
+Z:\Workspace\labview_work\instrulab\support\Ranges - String to Numeric.vi	2017/6/28 上午10:50:24	2
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 2000a Series\PicoScope2000a_MSOtemp.llb\PicoScope2000aStartStreaming.vi	2017/6/27 下午5:19:54	214
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 2000a Series\PicoScope2000a_MSOtemp.llb\PicoScope2000aWrapSettings.vi	2017/6/27 下午5:10:15	70
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 2000a Series\PicoScope2000a_MSOtemp.llb\PicoScope2000aSettings.vi	2017/6/27 下午5:10:00	178
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Public\Configure\Auto Setup.vi	2017/6/28 上午10:50:23	119
+Z:\Workspace\labview_work\instrulab\Acquisition\Configure Hardware.vi	2017/6/28 上午10:50:16	77
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Instr\_visa.llb\VISA Configure Serial Port (Instr).vi	2017/3/16 上午12:16:05	112
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 5000a Series\PicoScope5000a.llb\PicoScope5000aUnitInfo.vi	2017/6/27 下午5:15:07	39
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 5000a Series\PicoScope5000a.llb\PicoScope5000aPowerSource.vi	2017/6/27 下午5:16:33	34
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 5000a Series\PicoScope5000a.llb\PicoScope5000aOpen.vi	2017/6/29 上午11:03:36	71
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Private\Default Instrument Setup.vi	2017/6/28 上午10:50:22	43
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Utility\Reset.vi	2017/6/28 上午10:50:23	64
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Keithley DMM7510\Public\Initialize.vi	2017/6/28 上午10:50:23	164
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 2000a Series\PicoScope2000a_MSOtemp.llb\PicoScope2000aUnitInfo.vi	2017/6/27 下午5:07:01	47
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\PicoScope 2000a Series\PicoScope2000a_MSOtemp.llb\PicoScope2000aOpen.vi	2017/6/27 下午5:08:06	123
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Private\Default Instrument Setup.vi	2017/6/28 上午10:50:23	73
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Public\Utility\Reset.vi	2017/6/28 上午10:50:24	86
+Z:\Workspace\labview_work\instrulab\support\DAQ Drivers\Tektronix DPO MSO 2000 4000 Series\Public\Initialize.vi	2017/6/28 上午10:50:24	292
+Z:\Workspace\labview_work\instrulab\Acquisition\Initialize Hardware References.vi	2017/6/28 上午10:50:16	48
+Z:\Workspace\labview_work\instrulab\support\Message Queue\Dequeue Message.vi	2017/6/28 上午10:50:24	49
+Z:\Workspace\labview_work\instrulab\Acquisition\Acquisition State.ctl	2017/6/28 上午10:50:16	4
+Z:\Workspace\labview_work\instrulab\support\Message Queue\All Message Queues.ctl	2017/6/28 上午10:50:24	14
+Z:\Workspace\labview_work\instrulab\Acquisition\Acquisition Message Loop.vi	2017/6/28 上午10:50:16	74
+Z:\Workspace\labview_work\instrulab\Logging\Error Handler - Logging Message Loop.vi	2017/6/28 上午10:50:27	42
+Z:\Workspace\labview_work\instrulab\Logging\Logging Configuration.ctl	2017/6/28 上午10:50:27	20
+Z:\Workspace\labview_work\instrulab\Logging\Flush Data to Log File.vi	2017/6/28 上午10:50:27	4
+Z:\Workspace\labview_work\instrulab\Logging\Log Data.vi	2017/6/28 上午10:50:27	38
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\libraryn.llb\Get File Extension.vi	2017/3/15 下午10:59:45	20
+Z:\Workspace\labview_work\instrulab\Logging\Logging State.ctl	2017/6/28 上午10:50:27	5
+Z:\Workspace\labview_work\instrulab\Logging\Logging Message Loop.vi	2017/6/28 上午10:50:27	73
+Z:\Workspace\labview_work\instrulab\support\Error Handler - Message Handling Loop.vi	2017/6/28 上午10:50:24	44
+Z:\Workspace\labview_work\instrulab\support\User Event - Stop\Fire User Event - Stop.vi	2017/6/28 上午10:50:24	15
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\error.llb\Simple Error Handler.vi	2017/3/15 下午10:59:19	44
+Z:\Workspace\labview_work\instrulab\support\Set Enable State on Multiple Controls.vi	2017/6/28 上午10:50:24	15
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\_oldvers\_oldvers.llb\compatCalcOffset.vi	2017/3/15 下午10:49:15	11
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\_oldvers\_oldvers.llb\compatOpenFileOperation.vi	2017/3/15 下午10:49:15	92
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\_oldvers\_oldvers.llb\compatFileDialog.vi	2017/3/15 下午10:49:15	14
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\_oldvers\_oldvers.llb\Open_Create_Replace File.vi	2017/3/15 下午10:49:15	35
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\xml.llb\Write to XML File(string).vi	2017/3/15 下午10:49:15	111
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\xml.llb\FindElementStartByName.vi	2017/3/15 下午10:49:16	16
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\xml.llb\FindCloseTagByName.vi	2017/3/15 下午10:49:16	16
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\xml.llb\FindMatchingCloseTag.vi	2017/3/15 下午10:49:16	23
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\xml.llb\FindElement.vi	2017/3/15 下午10:49:16	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\xml.llb\FindEmptyElement.vi	2017/3/15 下午10:49:16	13
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\xml.llb\FindFirstTag.vi	2017/3/15 下午10:49:16	23
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\xml.llb\ParseXMLFragments.vi	2017/3/15 下午10:49:16	116
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\xml.llb\Read From XML File(string).vi	2017/3/15 下午10:49:16	144
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\lvfile.llb\LVFileType.ctl	2017/3/15 下午10:48:47	18
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\lvfile.llb\FT_FileTypes.ctl	2017/3/15 下午10:48:46	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\lvfile.llb\Get File Type.vi	2017/3/15 下午10:48:46	102
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\lvfile.llb\Is File an LLB.vi	2017/3/15 下午10:48:47	74
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\file.llb\Application Directory.vi	2017/3/15 下午10:48:46	19
+Z:\Workspace\labview_work\instrulab\Settings\Get Config File Path.vi	2017/6/28 上午10:50:16	14
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\LVLibp\Get Exported File List.vi	2017/3/15 上午9:59:58	30
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\libraryn.llb\Check if File or Folder Exists.vi	2017/3/15 下午10:59:45	19
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Utility\file.llb\Dflt Data Dir.vi	2017/3/15 下午10:49:02	10
+Z:\Workspace\labview_work\instrulab\Settings\Settings.ctl	2017/6/28 上午10:50:16	24
+Z:\Workspace\labview_work\instrulab\Settings\Load Settings from XML.vi	2017/6/28 上午10:50:16	34
+Z:\Workspace\labview_work\instrulab\support\Error Handler - Event Handling Loop.vi	2017/6/28 上午10:50:24	43
+Z:\Workspace\labview_work\instrulab\support\Message Queue\Obtain Message Queue.vi	2017/6/28 上午10:50:24	12
+Z:\Workspace\labview_work\instrulab\support\Message Queue\Create All Message Queues.vi	2017/6/28 上午10:50:24	26
+Z:\Workspace\labview_work\instrulab\support\User Event - Stop\Create User Event - Stop.vi	2017/6/28 上午10:50:24	21
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express shared\transition.llb\Dynamic To Waveform Array.vi	2017/3/15 上午9:41:08	1
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express analysis\MaskLimitBlock.llb\subMatchDT.vi	2017/3/16 上午12:13:35	6
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Waveform\WDTOps.llb\WDT Number of Waveform Samples DBL.vi	2017/3/15 下午10:49:44	38
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express analysis\MaskLimitBlock.llb\subMaskInterpolate.vi	2017/3/16 上午12:13:33	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\mamon.llb\ma_Limit Test Inside.vi	2017/3/16 上午12:13:33	21
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\mamon.llb\ma_Limit Test Outside.vi	2017/3/16 上午12:13:34	20
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\maUtilsandCtls.llb\ma_Check Waveform Timing.vi	2017/3/16 上午12:13:24	30
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\Waveform\WDTOps.llb\Check for Equality.vi	2017/3/15 下午10:41:06	20
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\measure\mamon.llb\Limit Testing Time.vi	2017/3/15 下午11:17:56	141
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express shared\ex_Modify Signal Name.vi	2017/3/15 上午11:13:24	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express shared\ex_Modify Signals Names.vi	2017/3/15 上午11:13:24	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2017\vi.lib\express\express analysis\MaskLimitBlock.llb\subMaskLimitTesting.vi	2017/3/16 上午12:13:33	9
+Z:\Workspace\labview_work\instrulab\controls\UI State.ctl	2017/6/28 上午10:50:27	8
+Z:\Workspace\labview_work\instrulab\controls\UI Data.ctl	2017/6/28 上午10:50:27	10
+Z:\Workspace\labview_work\instrulab\Settings\Physical Connection.ctl	2017/6/28 上午10:50:16	3
+Z:\Workspace\labview_work\instrulab\Settings\Settings Dialog.vi	2017/6/28 上午10:50:16	155
+Z:\Workspace\labview_work\instrulab\Main.vi	2017/6/28 上午10:50:16	210
+
+[Output File Version]
+InstruLab.exe	2.2.0.0
+
+[Output Files]
+Z:\Workspace\labview_work\instrulab\build\application\InstruLab.exe	2017/6/30 上午9:49:27
+Z:\Workspace\labview_work\instrulab\build\application\InstruLab.aliases	2017/6/30 上午9:49:25
+Z:\Workspace\labview_work\instrulab\build\application\InstruLab.ini	2017/6/30 上午9:49:25
+Z:\Workspace\labview_work\instrulab\build\application\data\ps2000a.dll	2017/6/27 下午5:49:45
+Z:\Workspace\labview_work\instrulab\build\application\data\ps5000a.dll	2017/6/27 下午5:49:46
+Z:\Workspace\labview_work\instrulab\build\application\data\ps2000aWrap.dll	2017/6/27 下午5:49:45
+Z:\Workspace\labview_work\instrulab\build\application\data\ps5000aWrap.dll	2017/6/27 下午5:49:46
+Z:\Workspace\labview_work\instrulab\build\application\data\lvanlys.dll	2017/3/15 上午8:04:00
+
+2017/6/30 上午9:49:27
