@@ -18,6 +18,8 @@
 		<Item Name="Average_of_Three.vi" Type="VI" URL="../Average_of_Three.vi"/>
 		<Item Name="Pos_or_Neg.vi" Type="VI" URL="../Pos_or_Neg.vi"/>
 		<Item Name="Quadratic_Equation_Calc.vi" Type="VI" URL="../Quadratic_Equation_Calc.vi"/>
+		<Item Name="Save_Array_to_Spreadsheet.vi" Type="VI" URL="../Save_Array_to_Spreadsheet.vi"/>
+		<Item Name="Save_Cluster_to_Text_File.vi" Type="VI" URL="../Save_Cluster_to_Text_File.vi"/>
 		<Item Name="Square_Pyramid_Vol_Calc.vi" Type="VI" URL="../Square_Pyramid_Vol_Calc.vi"/>
 		<Item Name="Sum_of_Three.vi" Type="VI" URL="../Sum_of_Three.vi"/>
 		<Item Name="Sum_of_Two_Dice.vi" Type="VI" URL="../Sum_of_Two_Dice.vi"/>
