@@ -19,6 +19,7 @@
 		<Item Name="Format Columns.vi" Type="VI" URL="../Format Columns.vi"/>
 		<Item Name="Pos_or_Neg.vi" Type="VI" URL="../Pos_or_Neg.vi"/>
 		<Item Name="Quadratic_Equation_Calc.vi" Type="VI" URL="../Quadratic_Equation_Calc.vi"/>
+		<Item Name="Read Spreadsheet to Array.vi" Type="VI" URL="../Read Spreadsheet to Array.vi"/>
 		<Item Name="Save_Array_to_Spreadsheet.vi" Type="VI" URL="../Save_Array_to_Spreadsheet.vi"/>
 		<Item Name="Save_Cluster_to_Spreadsheet.vi" Type="VI" URL="../Save_Cluster_to_Spreadsheet.vi"/>
 		<Item Name="Save_Cluster_to_Text_File.vi" Type="VI" URL="../Save_Cluster_to_Text_File.vi"/>
